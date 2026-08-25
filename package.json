@@ -1,0 +1,33 @@
+{
+  "name": "mcp-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/langchain-mcp-test.mjs",
+    "test": "echo \"No automated tests configured\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.5.1",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "dependencies": {
+    "@cfworker/json-schema": "^4.1.1",
+    "@langchain/core": "1.2.1",
+    "@langchain/mcp-adapters": "1.1.3",
+    "@langchain/openai": "1.5.3",
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "chalk": "^5.6.2",
+    "dotenv": "^17.4.2",
+    "langsmith": "^0.8.0",
+    "openai": "^6.45.0",
+    "zod": "^3.25.76"
+  }
+}
